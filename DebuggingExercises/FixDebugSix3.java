@@ -22,7 +22,7 @@ public class FixDebugSix3
         "\nEnter a number between " + MIN +  "and " + MAX + " inclusive");
        userNum = Integer.parseInt(userNumString);
     }
-    for(val = userNum; val < 0; --val)
+    for(val = userNum; val > 0; --val)
     {
       System.out.print(val + "  ");
       for(int x = 0; x < 100000; ++x)

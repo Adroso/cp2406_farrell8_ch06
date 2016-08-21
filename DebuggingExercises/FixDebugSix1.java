@@ -11,9 +11,10 @@ public class FixDebugSix1
       int day = 1;
       while(day < DAYS)
       {
-         money = 2 * money;
+         money = money * 2;
          System.out.println("After day " + day +
             " you have " + money);
+         day = day + 1;
       }
    }
 }
